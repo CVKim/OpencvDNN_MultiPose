@@ -6,8 +6,6 @@ from random import randint
 import argparse
 import glob 
 
-# 220329 kimgy
-
 parser = argparse.ArgumentParser(description='Run keypoint detection')
 parser.add_argument('--device', default='cpu',
                     help='Device to inference on')
